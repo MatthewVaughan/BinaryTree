@@ -1,0 +1,5 @@
+﻿  Driver.cpp
+c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\driver.cpp(13): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\driver.cpp(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  BinTree.vcxproj -> C:\Users\mattm_000\Documents\Visual Studio 2015\Projects\CS2420\BinTree\Debug\BinTree.exe
+  BinTree.vcxproj -> C:\Users\mattm_000\Documents\Visual Studio 2015\Projects\CS2420\BinTree\Debug\BinTree.pdb (Partial PDB)
