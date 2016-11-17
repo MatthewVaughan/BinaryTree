@@ -11,10 +11,6 @@ the Standard - Template Library.I understand that any violation of this
 disclaimer will result in a 0 for the project.*/
 
 #include "BinTree.h";
-#include <iostream>;
-
-
-using namespace std;
 
 void print_menu_2();
 void print_menu();
@@ -45,11 +41,13 @@ int main()
 			choice2 = toupper(get_user_command());
 			switch (choice2)
 			{
-			case '1': test.PreOrderTrav();
+			case '1': test.Print();
 				break;
-			case '2': test.InOrderTrav();
+			case '2': test.PreOrderTrav();
 				break;
-			case '3': test.PostOrderTrav();
+			case '3': test.InOrderTrav();
+				break;
+			case '4': test.PostOrderTrav();
 				break;
 			}
 			break;
@@ -74,9 +72,10 @@ void print_menu_2()
 {
 	cout << endl;
 	cout << "The following choices are available: " << endl;
-	cout << " 1   Print a copy of the entire Tree (Pre-Order)" << endl;
-	cout << " 2   Print a copy of the entire Tree (In-Order)" << endl;
-	cout << " 3   Print a copy of the entire Tree (Post-Order)" << endl;
+	cout << " 1   Print a copy of the entire Tree (Sideways Tree)" << endl;
+	cout << " 2   Print a copy of the entire Tree (Pre-Order)" << endl;
+	cout << " 3   Print a copy of the entire Tree (In-Order)" << endl;
+	cout << " 4   Print a copy of the entire Tree (Post-Order)" << endl;
 }
 
 void print_menu()

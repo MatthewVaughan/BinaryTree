@@ -1,4 +1,5 @@
 #include <iostream>;
+#include <string>;
 #include "BinTree.h"
 
 using namespace std;
@@ -40,6 +41,41 @@ void BinTree::DestroyTree(Node* temp)
 		delete temp;
 		return;
 	}
+}
+
+void BinTree::Print()
+{
+	if (root == nullptr)
+	{
+		cout << "The Tree is currently empty" << endl;
+	}
+	else
+	{
+		int depth = 0;
+		PrintH(root, depth);
+	}
+}
+
+
+void BinTree::PrintH(Node* temp, int depth)
+{
+	if (temp->left != nullptr)
+	{
+		PrintH(temp->left, depth + 1);
+	}
+	cout << tab(depth) << temp->data << endl;
+	if (temp->right != nullptr)
+	{
+		PrintH(temp->right, depth + 1);
+	}
+}
+
+
+string BinTree::tab(int depth)
+{
+	string arr[10] = { " ", "  ", "   ", "    ", "     ", "      ", "       ", "        ", "         ", "          " };
+	return arr[depth];
+
 }
 
 void BinTree::PreOrderTrav()

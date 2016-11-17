@@ -11,6 +11,9 @@ the Standard - Template Library.I understand that any violation of this
 disclaimer will result in a 0 for the project.*/
 
 #include "Node.h"
+#include <iostream>
+
+using namespace std;
 
 #pragma once
 
@@ -21,6 +24,8 @@ private:
 	void PreOrderTravH(Node* temp);
 	void PostOrderTravH(Node* temp);
 	void InOrderTravH(Node* temp);
+	void PrintH(Node* temp, int depth);
+	string tab(int depth);
 	void InsertHelper(Node* temp, int value);
 	int GetSizeHelper(Node* temp);
 
@@ -38,6 +43,7 @@ public:
 	void PreOrderTrav();
 	void PostOrderTrav();
 	void InOrderTrav();
+	void Print();
 	void Insert(int value);
 	int GetSize();
 	void DeleteElement(int value);

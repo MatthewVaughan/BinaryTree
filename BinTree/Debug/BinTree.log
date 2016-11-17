@@ -1,5 +1,7 @@
-﻿  Driver.cpp
-c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\driver.cpp(13): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\driver.cpp(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+﻿  BinTree.cpp
+c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\bintree.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\bintree.cpp(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\bintree.cpp(380): warning C4715: 'BinTree::FindElement': not all control paths return a value
+c:\users\mattm_000\documents\visual studio 2015\projects\cs2420\bintree\bintree\bintree.cpp(403): warning C4715: 'BinTree::FindParent': not all control paths return a value
   BinTree.vcxproj -> C:\Users\mattm_000\Documents\Visual Studio 2015\Projects\CS2420\BinTree\Debug\BinTree.exe
   BinTree.vcxproj -> C:\Users\mattm_000\Documents\Visual Studio 2015\Projects\CS2420\BinTree\Debug\BinTree.pdb (Partial PDB)
